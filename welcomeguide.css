@@ -1,0 +1,161 @@
+.center {
+  display: block;
+  width:1000;
+  position: relative;
+  z-index: -1;
+}
+
+.dot {
+  height: 23px;
+  width: 23px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+a {
+  display: block;
+}
+.one{
+  position: absolute;
+  top:534.2px;
+  left:416.4px;
+  z-index: 1;
+}
+
+.two {
+  position: absolute;
+  top:387.4px;
+  left:483.4px;
+  z-index: 1;
+}
+
+.three{
+  position: absolute;
+  top:483px;
+  left:517px;
+  z-index: 1;
+}
+
+.four{
+  position: absolute;
+  top:563.4px;
+  left:582.4px;
+  z-index: 1;
+}
+
+.five{
+  position: absolute;
+  top:621px;
+  left:503px;
+  z-index: 1;
+}
+
+.six{
+  position: absolute;
+  top:593px;
+  left:292px;
+  z-index: 1;
+}
+
+.seven{
+  position: absolute;
+  top:908.5px;
+  left:149.5px;
+  z-index: 1;
+}
+
+.eight{
+  position: absolute;
+  top:837px;
+  left:326px;
+  z-index: 1;
+}
+
+.nine{
+  position: absolute;
+  top:972px;
+  left:314px;
+  z-index: 1;
+}
+
+.ten{
+  position: absolute;
+  top:853px;
+  left:567px;
+  z-index: 1;
+}
+
+.eleven{
+  position: absolute;
+  top:972px;
+  left:424.5px;
+  z-index: 1;
+}
+
+.twelve{
+  position: absolute;
+  top:1101.7px;
+  left:463.3px;
+  z-index: 1;
+}
+
+.thirteen{
+  position: absolute;
+  top:965px;
+  left: 710px;
+}
+
+.fourteen{
+  position: absolute;
+  top:1088px;
+  left:801px;
+  z-index: 1;
+}
+
+.fifteen{
+  position: absolute;
+  top:1272px;
+  left:721px;
+  z-index: 1;
+}
+
+.sixteen{
+  position:absolute;
+  top: 1635px;
+  left: 465.4px;
+}
+
+.dot .information{
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  opacity: 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -125px;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.dot:hover .information {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.page {
+  -webkit-animation: fadein 2s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }

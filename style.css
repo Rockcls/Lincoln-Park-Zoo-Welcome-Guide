@@ -1,0 +1,92 @@
+body{
+  -webkit-animation: fadein 2s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+.title {
+  font-size: 2em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: darkgreen;
+  text-align: center;
+  /* -webkit-animation: fadein 3s;
+  -webkit-animation-timing-function: ease-in-out; */
+}
+
+@-webkit-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+/* .intro-title {
+  width=1000px;
+  padding=100px;
+  box-sizing: border-box;
+
+}
+
+.intro{
+  width=1000;
+  padding=100;
+  box-sizing: border-box;
+} */
+
+.animal-list{
+  font-size: 1.4em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 10;
+  color: forestgreen;
+  text-align: center;
+  /* -webkit-animation: fadein 3s;
+  -webkit-animation-timing-function: ease-in-out; */
+}
+
+#rounded-image{
+    border-radius: 10px;
+}
+
+.group{
+  width: 300px;
+  padding: 10px;
+  margin: 0;
+  border: 5px ;
+
+}
+.animal-image{
+  margin: 0 auto;
+
+  /* -webkit-animation: fadein 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-iteration-count: 1; */
+}
+
+.animal-image:hover {
+
+  animation: bounce 1s;
+}
+
+.animal-name{
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: olivedrab;
+
+  /* -webkit-animation: fadein 3s;
+
+  -webkit-animation-timing-function: ease-in-out; */
+
+}
+
+.animal-name:link{
+  color: olivedrab;
+}
+
+.animal-name:visited{
+  color:darkolivegreen;
+}
+
+.animal-name:hover{
+  color:yellowgreen;
+}
+
+.animal-name:active{
+  color:palegreen;
+}
